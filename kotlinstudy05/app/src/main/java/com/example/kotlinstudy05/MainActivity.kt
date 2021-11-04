@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         for (i in 5 downTo 0 step 2){//5  3  1  출력 (543210중 2개씩)
             println(i)
         }
-        //엘비스 연산자: 널값을 허용하지 않는 변수에 널값을 반환할수 있는 함수의 결과를 대입할경우
+        //엘비스 연산자?: 널값을 허용하지 않는 변수에 널값을 반환할수 있는 함수의 결과를 대입할경우
         fun Ex(i:Int):String?{
             return if (i%2==0)"result is not null" else null
         }
