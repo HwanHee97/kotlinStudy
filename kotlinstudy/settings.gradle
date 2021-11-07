@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "kotlinstudy"
 include ':app'
 include ':databindingex'
+include ':androidroom'
