@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/PROJECT/kotlinStudy/kotlinstudy/androidroom/src/main/res/layout/activity_main.xml" value="0.1296875" />
+        <entry key="..\:/PROJECT/kotlinStudy/kotlinstudy/androidroom/src/main/res/drawable/ic_add_black_24.xml" value="0.1" />
+        <entry key="..\:/PROJECT/kotlinStudy/kotlinstudy/androidroom/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/PROJECT/kotlinStudy/kotlinstudy/androidroom/src/main/res/layout/recyclerview_item.xml" value="0.1" />
         <entry key="..\:/PROJECT/kotlinStudy/kotlinstudy/app/src/main/res/layout/activity_main.xml" value="0.23777173913043478" />
         <entry key="..\:/PROJECT/kotlinStudy/kotlinstudy/databindingex/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>

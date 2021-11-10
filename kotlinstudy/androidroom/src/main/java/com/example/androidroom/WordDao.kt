@@ -14,8 +14,8 @@ interface WordDao {
     //데이터 변경사항을 관찰하려면 kotlinx-coroutines의 Flow를 사용한다.
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(word: Word)//한단어 삽입함수 // OnConflictStrategy.IGNORE = 이미 목록에 있는단어와 같으면 새단어를 무시
+     fun insert(word: Word)//한단어 삽입함수 // OnConflictStrategy.IGNORE = 이미 목록에 있는단어와 같으면 새단어를 무시
 
     @Query("DELETE FROM word_table")
-    suspend fun deleteAll()//모든단어 삭제 함수
+     fun deleteAll()//모든단어 삭제 함수
 }
