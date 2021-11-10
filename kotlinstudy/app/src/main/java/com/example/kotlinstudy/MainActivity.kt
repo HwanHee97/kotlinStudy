@@ -24,11 +24,11 @@ class MainActivity : AppCompatActivity() {
         binding.tvPhone.text="010-1111-2222"
         binding.tvAddress.text="서울특별시"
         
-       with(binding) {
-           name.text ="홍길동"  // 변수명도 tv 빼는게 좋을듯 
-           phone.text = "010-111-2222"
-           address.text ="서울"
-       }
+//       with(binding) {
+//           name.text ="홍길동"  // 변수명도 tv 빼는게 좋을듯
+//           phone.text = "010-111-2222"
+//           address.text ="서울"
+//       }
        
     }
 }
